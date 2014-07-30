@@ -93,6 +93,21 @@ add_action( 'widgets_init', 'wordpress_dealership_widgets_init' );
  */
 function wordpress_dealership_scripts() {
 	wp_enqueue_style( 'wordpress-dealership-style', get_stylesheet_uri() );
+  
+  /* Add Foundation CSS */
+	wp_enqueue_style( 'foundation-normalize', get_stylesheet_directory_uri() . '/foundation-5.3.1/css/normalize.css' );
+	wp_enqueue_style( 'foundation', get_stylesheet_directory_uri() . '/foundation-5.3.1/css/foundation.css' );
+  
+  /* Add Custom CSS 
+	wp_enqueue_style( 'wordpress-dealership-style', get_stylesheet_directory_uri() . '/custom.css', array(), '1' );
+  */
+  
+  /* Add Foundation JS */
+	wp_enqueue_script( 'foundation-js', get_template_directory_uri() . '/foundation-5.3.1/js/foundation.min.js', array( 'jquery' ), '1', true );
+	wp_enqueue_script( 'foundation-modernizr-js', get_template_directory_uri() . '/foundation-5.3.1/js/vendor/modernizr.js', array( 'jquery' ), '1', true );
+  
+  /* Foundation Init JS */
+	wp_enqueue_script( 'foundation-init-js', get_template_directory_uri() . '/foundation.js', array( 'jquery' ), '1', true );
 
 	wp_enqueue_script( 'wordpress-dealership-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
@@ -103,6 +118,19 @@ function wordpress_dealership_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'wordpress_dealership_scripts' );
+
+/**
+ * Custom menu
+ */
+function wordpress_dealership_nav_menu($menu){
+
+	$menu = str_replace('menu-item-has-children', 'menu-item-has-children has-dropdown', $menu);
+	$menu = str_replace('sub-menu', 'sub-menu dropdown', $menu);
+	return $menu;
+
+}
+
+add_filter('wp_nav_menu','wordpress_dealership_nav_menu');
 
 /**
  * Implement the Custom Header feature.

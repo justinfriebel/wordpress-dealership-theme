@@ -50,16 +50,7 @@
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'wordpress-dealership' ); ?></a>
 
-	<header id="masthead" class="site-header" role="banner">
-		<div class="site-branding">
-			<div class="row"><!-- Foundation .row start -->
-				<div class="small-12 columns"><!-- Foundation .columns start -->
-					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-					<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-				</div><!-- Foundation .columns end -->
-			</div><!-- Foundation .row end -->
-		</div>
-    
+	<header id="masthead" class="site-header" role="banner">    
     <!-- Foundation top-bar navigation start -->
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<div class="row show-for-large-only">
@@ -68,7 +59,7 @@
 						<section class="top-bar-section">
 						<?php wp_nav_menu( array( 
 							'theme_location' => 'primary', 
-							'menu_id' => '',
+							'menu_id' => 'top-nav',
 						) ); ?>
 						</section>
 					</nav><!-- #site-navigation -->

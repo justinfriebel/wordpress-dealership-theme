@@ -787,22 +787,6 @@ object {
 .gallery-columns-9 .gallery-item {
 	max-width: 11.11%;
 }
-
-
-/*
-  * custom styles go below this comment *
-*/
 .gallery-caption {
 	display: block;
-}
-
-.wp-post-image {
-  width: 100%;
-  height: auto;
-  margin-bottom: 1rem; }
-
-/* MEDIA QUERIES */
-@media only screen and (max-width: 40em) {
-  #wpadminbar {
-    position: fixed; }
 }

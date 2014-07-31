@@ -56,7 +56,7 @@
 			<div class="row show-for-large-up">
 				<div class="small-12 columns">
 					<nav class="top-bar hide-for-small" data-topbar>
-						<section class="top-bar-section">
+						<section class="top-bar-section right">
 						<?php wp_nav_menu( array( 
 							'theme_location' => 'primary', 
 							'menu_id' => 'top-nav',

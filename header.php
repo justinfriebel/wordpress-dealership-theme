@@ -68,7 +68,7 @@
 						<section class="top-bar-section">
 						<?php wp_nav_menu( array( 
 							'theme_location' => 'primary', 
-							'menu_id' => 'top-nav',
+							'menu_id' => '',
 						) ); ?>
 						</section>
 					</nav><!-- #site-navigation -->

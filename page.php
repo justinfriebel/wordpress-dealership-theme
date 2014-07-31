@@ -13,7 +13,7 @@
 get_header(); ?>
 
 	<div class="row" data-equalizer><!-- Foundation .row start -->
-		<div class="large-9 medium-8 columns" data-equalizer-watch><!-- Foundation .columns start -->
+		<div class="small-12 columns" data-equalizer-watch><!-- Foundation .columns start -->
 			<div id="primary" class="content-area">
 				<main id="main" class="site-main" role="main">
 
@@ -34,12 +34,6 @@ get_header(); ?>
 
 				</main><!-- #main -->
 			</div><!-- #primary -->
-		</div><!-- Foundation .columns end -->
-    
-		<div class="large-3 medium-4 columns sidebar" data-equalizer-watch><!-- Foundation .columns start -->
-			
-			<?php get_sidebar(); ?>
-
 		</div><!-- Foundation .columns end -->
 	</div><!-- Foundation .row end -->
 	

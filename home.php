@@ -5,16 +5,7 @@
  * @package wordpress-dealership
  */
 
-get_header(); ?>
-
-    <div class="site-branding">
-			<div class="row"><!-- Foundation .row start -->
-				<div class="small-12 columns"><!-- Foundation .columns start -->
-					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-					<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-				</div><!-- Foundation .columns end -->
-			</div><!-- Foundation .row end -->
-		</div>
+get_header( 'home' ); ?>
 
 	<div class="row" data-equalizer><!-- Foundation .row start -->
 		<div class="small-12 columns" data-equalizer-watch><!-- Foundation .columns start -->

@@ -16,7 +16,7 @@ get_header(); ?>
 
 					<?php get_template_part( 'content', 'single' ); ?>
 
-					<?php awesome_theme_post_nav(); ?>
+					<?php wordpress_dealership_post_nav(); ?>
 
 					<?php
 						// If comments are open or we have at least one comment, load up the comment template

@@ -39,7 +39,7 @@ get_header(); ?>
 
 						</ul><!-- Foundation block grid end -->
 
-						<?php awesome_theme_paging_nav(); ?>
+						<?php wordpress_dealership_paging_nav(); ?>
 
 					<?php else : ?>
 

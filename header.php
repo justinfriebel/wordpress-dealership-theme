@@ -25,7 +25,7 @@
 <div class="off-canvas-wrap" data-offcanvas>
 	<div class="inner-wrap">
 
-	<nav class="tab-bar hide-for-large-only">
+	<nav class="tab-bar hide-for-large-up">
       <section class="left-small">
         <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
       </section>
@@ -53,7 +53,7 @@
 	<header id="masthead" class="site-header" role="banner">    
     <!-- Foundation top-bar navigation start -->
 		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<div class="row show-for-large-only">
+			<div class="row show-for-large-up">
 				<div class="small-12 columns">
 					<nav class="top-bar hide-for-small" data-topbar>
 						<section class="top-bar-section">

@@ -7,12 +7,31 @@
   margin-left: auto;
   margin-right: auto;
 }
+.white-text {
+  color: white;
+}
 
 #site-navigation {
   background: #000;
 }
 .top-bar-section ul li {
   background: transparent;
+}
+
+.site-branding {
+  background: #000;
+  color: #fff;
+  padding: 6rem 0;
+  text-align: center;
+}
+.site-title {
+  padding: 0 4rem 2rem 4rem;
+  font-size: 4rem;
+  line-height: 1.2;
+}
+.site-description {
+  padding: 0 10rem;
+  font-size: 1.7rem;
 }
 
 .wp-post-image {
@@ -38,6 +57,7 @@
   }
   .top-bar-section li:not(.has-form) a:not(.button) {
     background: transparent;
+    text-transform: uppercase;
   }
 } /* min-width 641px, medium screens */
 

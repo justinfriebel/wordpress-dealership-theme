@@ -13,7 +13,7 @@
 
 get_header(); ?>
 
-	<div class="row" data-equalizer><!-- Foundation .row start -->
+	<div class="row post-listing-padding" data-equalizer><!-- Foundation .row start -->
 		<div class="small-12 columns" data-equalizer-watch><!-- Foundation .columns start -->
 			<div id="primary" class="content-area">
 				<main id="main" class="site-main" role="main">

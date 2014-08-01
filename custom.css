@@ -34,6 +34,10 @@
   font-size: 1.7rem;
 }
 
+.post-listing-padding {
+  padding: 6rem 0;
+}
+
 .wp-post-image {
   width: 100%;
   height: auto;

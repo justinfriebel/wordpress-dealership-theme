@@ -17,6 +17,16 @@
 .top-bar-section ul li {
   background: transparent;
 }
+.top-bar-section ul li > a {
+  color: #d6d6d6;
+}
+.top-bar-section ul li:hover:not(.has-form) > a {
+  background: transparent;
+}
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  color: #fff;
+  background: transparent;
+}
 
 .site-branding {
   background: #000;

@@ -1,6 +1,20 @@
 /*
   * custom styles go below this comment *
 */
+
+a:link {
+  color: #5a5a5a;
+}
+a:visited {
+  color: #5a5a5a;
+}
+a:hover {
+  color: #000;
+}
+a:active {
+  color: #000;
+}
+
 .full-width {
   width: 100%;
   max-width: none;
@@ -46,6 +60,9 @@
 
 .post-listing-padding {
   padding: 6rem 0;
+}
+article.post h2 {
+  line-height: 1;
 }
 
 .wp-post-image {

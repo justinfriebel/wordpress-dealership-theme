@@ -28,6 +28,9 @@ a:active {
 #site-navigation {
   background: #000;
 }
+.header-padding {
+  padding: 2rem 0;
+}
 .top-bar-section ul li {
   background: transparent;
 }

@@ -55,7 +55,7 @@
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<div class="row show-for-large-up header-padding">
 				<div class="small-12 columns">
-          <img src="<?php bloginfo('stylesheet_directory'); ?>/dev-images/wordpress-dealership-theme.png" class="left" />
+          <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/dev-images/wordpress-dealership-theme.png" class="left" /></a>
 					<nav class="top-bar hide-for-small right" data-topbar>
 						<section class="top-bar-section right">
 						<?php wp_nav_menu( array( 

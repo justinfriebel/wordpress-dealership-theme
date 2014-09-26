@@ -128,8 +128,19 @@ function wordpress_dealership_nav_menu($menu){
 	return $menu;
 
 }
-
 add_filter('wp_nav_menu','wordpress_dealership_nav_menu');
+
+/**
+ * Custom city and state
+ */
+function wordpress_dealership_city_state(){
+
+	$city = 'City';
+	$state = 'State';
+  $city_state = " " . $city . " " . $state;
+	return $city_state;
+
+}
 
 /**
  * Implement the Custom Header feature.

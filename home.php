@@ -10,7 +10,7 @@ get_header(); ?>
   <div class="site-branding">
     <div class="row"><!-- Foundation .row start -->
       <div class="small-12 columns"><!-- Foundation .columns start -->
-        <h1 class="site-title white-text"><?php bloginfo( 'name' ); ?></h1>
+        <h1 class="site-title white-text"><?php bloginfo( 'name' ); ?> blog for<?php echo wordpress_dealership_city_state(); ?></h1>
         <h2 class="site-description white-text"><?php bloginfo( 'description' ); ?></h2>
       </div><!-- Foundation .columns end -->
     </div><!-- Foundation .row end -->

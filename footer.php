@@ -14,9 +14,8 @@
 		<div class="row"><!-- Foundation .row start -->
 			<div class="small-12 columns"><!-- Foundation .columns start -->
 				<div class="site-info">
-					<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'wordpress-dealership' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'wordpress-dealership' ), 'WordPress' ); ?></a>
-					<span class="sep"> | </span>
-					<?php printf( __( 'Theme: %1$s by %2$s.', 'wordpress-dealership' ), 'WordPress Dealership Theme', '<a href="http://justinfriebel.com" rel="designer">Justin Friebel</a>' ); ?>
+          <span>&copy; <?php bloginfo( 'name' ); ?></span>
+					<?php printf( __( '%1$s', 'wordpress-dealership' ), '<a href="http://dealerfire.com" target="_blank">Dealership websites by DEALERFIRE</a>' ); ?>
 				</div><!-- .site-info -->
 			</div><!-- Foundation .columns end -->
 		</div><!-- Foundation .row end -->

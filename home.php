@@ -5,7 +5,16 @@
  * @package wordpress-dealership
  */
 
-get_header( 'home' ); ?>
+get_header(); ?>
+
+  <div class="site-branding">
+    <div class="row"><!-- Foundation .row start -->
+      <div class="small-12 columns"><!-- Foundation .columns start -->
+        <h1 class="site-title white-text"><?php bloginfo( 'name' ); ?></h1>
+        <h2 class="site-description white-text"><?php bloginfo( 'description' ); ?></h2>
+      </div><!-- Foundation .columns end -->
+    </div><!-- Foundation .row end -->
+  </div>
 
 	<div class="row post-listing-padding" data-equalizer><!-- Foundation .row start -->
 		<div class="small-12 columns" data-equalizer-watch><!-- Foundation .columns start -->

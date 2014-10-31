@@ -25,6 +25,46 @@ a:active {
   color: white;
 }
 
+.tab-bar {
+  background: #fff;
+}
+.left-small {
+  border-right: none;
+}
+.mobile-logo {
+  max-height: 40px;
+  margin: 5px auto;
+  display: block;
+}
+.left-off-canvas-menu {
+  background: #fff;
+}
+.left-off-canvas-menu ul {
+  list-style: none;
+  margin-left: 0.5rem;
+}
+.tab-bar .menu-icon {
+  text-indent: 2.1875rem;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  display: block;
+  padding: 0;
+  color: white;
+  position: relative;
+  transform: translate3d(0, 0, 0); }
+  .tab-bar .menu-icon span::after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 0;
+    top: 50%;
+    margin-top: -0.5rem;
+    left: 0.90625rem;
+    box-shadow: 0 0px 0 1px #5a5a5a, 0 7px 0 1px #5a5a5a, 0 14px 0 1px #5a5a5a;
+    width: 1rem; }
+  .tab-bar .menu-icon span:hover:after {
+    box-shadow: 0 0px 0 1px #000, 0 7px 0 1px #000, 0 14px 0 1px #000; }
+
 #site-navigation {
   background: #fff;
 }
@@ -52,13 +92,11 @@ a:active {
   text-align: center;
 }
 .site-title {
-  padding: 0 4rem 2rem 4rem;
-  font-size: 4rem;
+  font-size: 2rem;
   line-height: 1.2;
 }
 .site-description {
-  padding: 0 10rem;
-  font-size: 1.7rem;
+  font-size: 1rem;
 }
 
 .post-listing-padding {
@@ -92,6 +130,15 @@ article.post h2 {
   .top-bar-section li:not(.has-form) a:not(.button) {
     background: transparent;
     text-transform: uppercase;
+  }
+  .site-title {
+    padding: 0 4rem 2rem 4rem;
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+  .site-description {
+    padding: 0 10rem;
+    font-size: 1.7rem;
   }
 } /* min-width 641px, medium screens */
 

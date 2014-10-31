@@ -26,10 +26,11 @@
 	<div class="inner-wrap">
 
 	<nav class="tab-bar hide-for-large-up">
-      <section class="left-small">
-        <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
-      </section>
-    </nav>
+    <section class="left-small">
+      <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
+    </section>
+    <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/dev-images/wordpress-dealership-theme.png" class="text-center mobile-logo" /></a>
+  </nav>
 
 	<!-- Off Canvas Menu -->
 	<aside class="left-off-canvas-menu">

@@ -26,7 +26,7 @@ a:active {
 }
 
 #site-navigation {
-  background: #000;
+  background: #fff;
 }
 .header-padding {
   padding: 2rem 0;
@@ -35,13 +35,13 @@ a:active {
   background: transparent;
 }
 .top-bar-section ul li > a {
-  color: #d6d6d6;
+  color: #5a5a5a;
 }
 .top-bar-section ul li:hover:not(.has-form) > a {
   background: transparent;
 }
 .top-bar-section li:not(.has-form) a:not(.button):hover {
-  color: #fff;
+  color: #000;
   background: transparent;
 }
 

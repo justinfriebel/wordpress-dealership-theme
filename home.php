@@ -23,7 +23,7 @@ get_header(); ?>
 
 					<?php if ( have_posts() ) : ?>
 
-						<ul class="large-block-grid-2"><!-- Foundation block grid start -->
+						<ul class="medium-block-grid-2 large-block-grid-2"><!-- Foundation block grid start -->
 
 						<?php /* Start the Loop */ ?>
 						<?php while ( have_posts() ) : the_post(); ?>

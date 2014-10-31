@@ -15,6 +15,36 @@ a:active {
   color: #000;
 }
 
+a.dark-link:hover {
+  color: #fff;
+}
+
+button.round,
+.button.round {
+  border-radius: 3px;
+  display: block;
+  float: left;
+}
+button,
+.button {
+  background-color: #5a5a5a;
+}
+button:hover,
+button:focus,
+.button:hover,
+.button:focus {
+  background-color: #000;
+}
+button:hover,
+button:focus,
+.button:hover,
+.button:focus {
+  color: white;
+}
+a.button {
+  color: #fff;
+}
+
 .full-width {
   width: 100%;
   max-width: none;
@@ -43,27 +73,13 @@ a:active {
   list-style: none;
   margin-left: 0.5rem;
 }
-.tab-bar .menu-icon {
-  text-indent: 2.1875rem;
-  width: 2.8125rem;
-  height: 2.8125rem;
-  display: block;
-  padding: 0;
-  color: white;
-  position: relative;
-  transform: translate3d(0, 0, 0); }
-  .tab-bar .menu-icon span::after {
-    content: "";
-    position: absolute;
-    display: block;
-    height: 0;
-    top: 50%;
-    margin-top: -0.5rem;
-    left: 0.90625rem;
-    box-shadow: 0 0px 0 1px #5a5a5a, 0 7px 0 1px #5a5a5a, 0 14px 0 1px #5a5a5a;
-    width: 1rem; }
-  .tab-bar .menu-icon span:hover:after {
-    box-shadow: 0 0px 0 1px #000, 0 7px 0 1px #000, 0 14px 0 1px #000; }
+
+.tab-bar .menu-icon span::after {
+  box-shadow: 0 0px 0 1px #5a5a5a, 0 7px 0 1px #5a5a5a, 0 14px 0 1px #5a5a5a;
+}
+.tab-bar .menu-icon span:hover:after {
+  box-shadow: 0 0px 0 1px #000, 0 7px 0 1px #000, 0 14px 0 1px #000;
+}
 
 #site-navigation {
   background: #fff;
@@ -86,7 +102,8 @@ a:active {
 }
 
 .site-branding {
-  background: #000;
+  background: url("") #000 no-repeat top center;
+  background: 
   color: #fff;
   padding: 6rem 0;
   text-align: center;
@@ -109,7 +126,14 @@ article.post h2 {
 .wp-post-image {
   width: 100%;
   height: auto;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+}
+
+.site-footer {
+  background: #000;
+  color: #fff;
+  padding: 2rem;
+}
 
 /* MEDIA QUERIES */
 

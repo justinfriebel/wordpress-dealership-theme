@@ -15,7 +15,7 @@
 			<div class="small-12 columns"><!-- Foundation .columns start -->
 				<div class="site-info">
           <span>&copy; <?php bloginfo( 'name' ); ?></span>
-					<?php printf( __( '%1$s', 'wordpress-dealership' ), ' - <a href="http://dealerfire.com" target="_blank">Dealership websites by DEALERFIRE</a>' ); ?>
+					<?php printf( __( '%1$s', 'wordpress-dealership' ), ' - <a href="http://dealerfire.com" target="_blank" class="dark-link">Dealership websites by DEALERFIRE</a>' ); ?>
 				</div><!-- .site-info -->
 			</div><!-- Foundation .columns end -->
 		</div><!-- Foundation .row end -->

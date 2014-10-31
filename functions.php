@@ -143,6 +143,16 @@ function wordpress_dealership_city_state(){
 }
 
 /**
+ * Modify read more link
+ */
+add_filter( 'the_content_more_link', 'modify_read_more_link' );
+function modify_read_more_link() {
+  
+  return '<span class="clearfix"></span><a class="round button more-link" href="' . get_permalink() . '">Read more</a>';
+  
+}
+
+/**
  * Implement the Custom Header feature.
  */
 //require get_template_directory() . '/inc/custom-header.php';

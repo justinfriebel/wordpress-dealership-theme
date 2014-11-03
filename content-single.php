@@ -6,7 +6,16 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+    
+		<?php
+
+      if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
+        the_post_thumbnail( 'full' );
+      }
+
+      the_title( '<h1 class="entry-title">', '</h1>' );
+    
+    ?>
 
 		<div class="entry-meta">
 			<?php wordpress_dealership_posted_on(); ?>

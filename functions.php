@@ -99,6 +99,9 @@ function wordpress_dealership_scripts() {
 	wp_enqueue_style( 'foundation', get_stylesheet_directory_uri() . '/foundation-5.3.1/css/foundation.css' );
   
   /* Add Custom CSS */
+	wp_enqueue_style( 'foundation-icons', get_stylesheet_directory_uri() . '/foundation-icons/foundation-icons.css', array(), '1' );
+  
+  /* Add Custom CSS */
 	wp_enqueue_style( 'wordpress-dealership-custom-style', get_stylesheet_directory_uri() . '/custom.css', array(), '1' );
   
   /* Add Foundation JS */

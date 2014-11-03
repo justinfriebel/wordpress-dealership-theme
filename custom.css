@@ -134,6 +134,9 @@ article.post h2 {
   color: #fff;
   padding: 2rem;
 }
+.social-icons {
+  font-size: 28px;
+}
 
 /* MEDIA QUERIES */
 

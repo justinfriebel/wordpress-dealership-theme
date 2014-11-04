@@ -45,6 +45,9 @@ a.button {
   color: #fff;
 }
 
+code {
+  color: #000;
+}
 .full-width {
   width: 100%;
   max-width: none;

@@ -154,6 +154,9 @@ article.post h2 {
 
 /* Medium screens */
 @media only screen and (min-width: 40.063em) {
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+  }
   nav.top-bar {
     background: transparent;
   }

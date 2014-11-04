@@ -105,6 +105,12 @@ code {
   margin: 5px auto;
   display: block;
 }
+
+.menu-item a {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1rem;
+}
 .left-off-canvas-menu {
   background: #fff;
 }
@@ -202,6 +208,9 @@ article.post h2 {
   .top-bar-section li:not(.has-form) a:not(.button) {
     background: transparent;
     text-transform: uppercase;
+    line-height: 54px; /* this should match the height of the logo */
+    font-weight: 600;
+    font-size: 1rem;
   }
   .site-title {
     padding: 0 4rem 2rem 4rem;

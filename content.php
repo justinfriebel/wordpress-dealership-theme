@@ -9,8 +9,11 @@
 		<?php
       
       if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
-        the_post_thumbnail( 'large' );
-      }
+        
+    ?>
+        <a href="<?php echo get_permalink(); ?>"><?php the_post_thumbnail( 'large' ); ?></a>
+    
+    <?php }
       
       the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
     

@@ -157,7 +157,7 @@ code {
 .site-branding {
   background: rgba(122, 125, 132, 1.0) no-repeat top center;
   color: #fff;
-  padding: 6rem 0;
+  padding: 2rem 0;
   text-align: center;
   background-image: linear-gradient(to bottom, rgba(122, 125, 132, 0.8), rgba(122, 125, 132, 0.8)), url("dev-images/2015-ford-focus-st.jpg");
   background-image: -moz-linear-gradient(top, rgba(122, 125, 132, 0.8), rgba(122, 125, 132, 0.8)), url("dev-images/2015-ford-focus-st.jpg");
@@ -175,7 +175,7 @@ code {
 }
 
 .post-listing-padding {
-  padding: 6rem 0;
+  padding: 2rem 0;
 }
 article.post h2 {
   line-height: 1;
@@ -226,6 +226,9 @@ article.post h2 {
     font-weight: 600;
     font-size: 1rem;
   }
+  .site-branding {
+    padding: 6rem 0;
+  }
   .site-title {
     padding: 0 4rem 2rem 4rem;
     font-size: 4rem;
@@ -234,6 +237,9 @@ article.post h2 {
   .site-description {
     padding: 0 10rem;
     font-size: 1.7rem;
+  }
+  .post-listing-padding {
+    padding: 6rem 0;
   }
 } /* min-width 641px, medium screens */
 

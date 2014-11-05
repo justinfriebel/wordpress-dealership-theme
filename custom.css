@@ -2,6 +2,10 @@
   * custom styles go below this comment *
 */
 
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+}
+
 a:link {
   color: #5a5a5a;
 }
@@ -95,14 +99,15 @@ code {
 }
 
 .tab-bar {
-  background: #fff;
+  background: #000;
 }
 .left-small {
   border-right: none;
 }
 .mobile-logo {
-  max-height: 40px;
-  margin: 5px auto;
+  max-height: 2.8125rem;
+  margin: 0 auto;
+  padding: 5px 0;
   display: block;
 }
 
@@ -111,8 +116,11 @@ code {
   font-weight: 600;
   font-size: 1rem;
 }
+.menu-item a:hover {
+  color: #fff;
+}
 .left-off-canvas-menu {
-  background: #fff;
+  background: #000;
 }
 .left-off-canvas-menu ul {
   list-style: none;
@@ -122,12 +130,12 @@ code {
 .tab-bar .menu-icon span::after {
   box-shadow: 0 0px 0 1px #5a5a5a, 0 7px 0 1px #5a5a5a, 0 14px 0 1px #5a5a5a;
 }
-.tab-bar .menu-icon span:hover:after {
-  box-shadow: 0 0px 0 1px #000, 0 7px 0 1px #000, 0 14px 0 1px #000;
+.tab-bar .menu-icon:hover span::after {
+  box-shadow: 0 0px 0 1px #fff, 0 7px 0 1px #fff, 0 14px 0 1px #fff;
 }
 
 #site-navigation {
-  background: #fff;
+  background: #000;
 }
 .header-padding {
   padding: 2rem 0;
@@ -142,16 +150,21 @@ code {
   background: transparent;
 }
 .top-bar-section li:not(.has-form) a:not(.button):hover {
-  color: #000;
+  color: #fff;
   background: transparent;
 }
 
 .site-branding {
-  background: url("") #000 no-repeat top center;
-  background: 
+  background: rgba(122, 125, 132, 1.0) no-repeat top center;
   color: #fff;
   padding: 6rem 0;
   text-align: center;
+  background-image: linear-gradient(to bottom, rgba(122, 125, 132, 0.8), rgba(122, 125, 132, 0.8)), url("dev-images/2015-ford-focus-st.jpg");
+  background-image: -moz-linear-gradient(top, rgba(122, 125, 132, 0.8), rgba(122, 125, 132, 0.8)), url("dev-images/2015-ford-focus-st.jpg");
+  background-image: -o-linear-gradient(top, rgba(122, 125, 132, 0.8), rgba(122, 125, 132, 0.8)), url("dev-images/2015-ford-focus-st.jpg");
+  background-image: -ms-linear-gradient(top, rgba(122, 125, 132, 0.8), rgba(122, 125, 132, 0.8)), url("dev-images/2015-ford-focus-st.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(122, 125, 132, 0.8)), to(rgba(0, 0, 0, 0.8))), url("dev-images/2015-ford-focus-st.jpg");
+  background-image: -webkit-linear-gradient(top, rgba(122, 125, 132, 0.8), rgba(122, 125, 132, 0.8)), url("dev-images/2015-ford-focus-st.jpg");
 }
 .site-title {
   font-size: 2rem;
@@ -166,6 +179,10 @@ code {
 }
 article.post h2 {
   line-height: 1;
+}
+
+.hentry {
+  margin: 2rem 0;
 }
 
 .wp-post-image {
@@ -199,9 +216,6 @@ article.post h2 {
 
 /* Medium screens */
 @media only screen and (min-width: 40.063em) {
-  h1, h2, h3, h4, h5, h6 {
-    line-height: 1.2;
-  }
   nav.top-bar {
     background: transparent;
   }

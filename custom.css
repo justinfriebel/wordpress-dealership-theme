@@ -7,10 +7,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a:link {
-  color: #5a5a5a;
+  color: #7A7D84;
 }
 a:visited {
-  color: #5a5a5a;
+  color: #7A7D84;
 }
 a:hover {
   color: #000;
@@ -44,7 +44,7 @@ input[type="submit"] {
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
   font-size: 1rem;
-  background-color: #5a5a5a;
+  background-color: #7A7D84;
   box-shadow: none;
   text-shadow: none;
   border-radius: 3px;
@@ -67,7 +67,7 @@ button.round,
 }
 button,
 .button {
-  background-color: #5a5a5a;
+  background-color: #7A7D84;
 }
 button:hover,
 button:focus,
@@ -128,7 +128,7 @@ code {
 }
 
 .tab-bar .menu-icon span::after {
-  box-shadow: 0 0px 0 1px #5a5a5a, 0 7px 0 1px #5a5a5a, 0 14px 0 1px #5a5a5a;
+  box-shadow: 0 0px 0 1px #7A7D84, 0 7px 0 1px #7A7D84, 0 14px 0 1px #7A7D84;
 }
 .tab-bar .menu-icon:hover span::after {
   box-shadow: 0 0px 0 1px #fff, 0 7px 0 1px #fff, 0 14px 0 1px #fff;
@@ -144,7 +144,7 @@ code {
   background: transparent;
 }
 .top-bar-section ul li > a {
-  color: #5a5a5a;
+  color: #7A7D84;
 }
 .top-bar-section ul li:hover:not(.has-form) > a {
   background: transparent;

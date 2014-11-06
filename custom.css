@@ -116,9 +116,12 @@ code {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 1rem;
+  color: #fff;
+  letter-spacing: 0.1rem;
 }
 .menu-item a:hover {
   color: #fff;
+  border-bottom: 3px solid #fff;
 }
 .left-off-canvas-menu {
   background: #000;
@@ -126,6 +129,9 @@ code {
 .left-off-canvas-menu ul {
   list-style: none;
   margin-left: 0.5rem;
+}
+.left-off-canvas-menu ul li {
+  margin: 1rem 0;
 }
 
 .tab-bar .menu-icon span::after {
@@ -143,16 +149,20 @@ code {
 }
 .top-bar-section ul li {
   background: transparent;
+  margin: 0 1rem;
 }
 .top-bar-section ul li > a {
-  color: #7A7D84;
+  color: #fff;  
+}
+.current-menu-item a {
+  border-bottom: 3px solid #fff;
 }
 .top-bar-section ul li:hover:not(.has-form) > a {
   background: transparent;
 }
 .top-bar-section li:not(.has-form) a:not(.button):hover {
-  color: #fff;
   background: transparent;
+  border-bottom: 3px solid #fff;
 }
 
 .site-branding {
@@ -226,6 +236,7 @@ article.post h2 {
     line-height: 54px; /* this should match the height of the logo */
     font-weight: 600;
     font-size: 1rem;
+    padding: 0;
   }
   .site-branding {
     padding: 6rem 0;

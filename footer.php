@@ -13,7 +13,7 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="row"><!-- Foundation .row start -->
 			<div class="small-12 medium-6 columns"><!-- Foundation .columns start -->
-				<div class="site-info small-text-center">
+				<div class="site-info small-text-center medium-text-left">
           <p>&copy; <?php bloginfo( 'name' ); ?> - <a href="http://dealerfire.com" target="_blank" class="dark-link">Dealership websites by DEALERFIRE</a></p>
 				</div><!-- .site-info -->
 			</div><!-- Foundation .columns end -->

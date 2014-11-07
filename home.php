@@ -9,7 +9,10 @@ get_header(); ?>
 
   <div class="site-branding">
     <div class="row"><!-- Foundation .row start -->
-      <div class="small-12 columns"><!-- Foundation .columns start -->
+      <div class="small-12 medium-6 columns "><!-- Foundation .columns start -->
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/dev-images/ford-focus-st-transparent.png" class="site-branding-img" />
+      </div><!-- Foundation .columns end -->
+      <div class="small-12 medium-6 columns medium-text-left"><!-- Foundation .columns start -->
         <h1 class="site-title white-text"><?php bloginfo( 'name' ); ?> blog for<?php echo wordpress_dealership_city_state(); ?></h1>
         <h2 class="site-description white-text"><?php bloginfo( 'description' ); ?></h2>
       </div><!-- Foundation .columns end -->

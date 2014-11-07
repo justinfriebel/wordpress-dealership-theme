@@ -2,6 +2,10 @@
   * custom styles go below this comment *
 */
 
+body {
+  background: #000;
+}
+
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
 }
@@ -163,6 +167,10 @@ code {
 .top-bar-section li:not(.has-form) a:not(.button):hover {
   background: transparent;
   border-bottom: 3px solid #fff;
+}
+
+#content {
+  background: #fff;
 }
 
 .site-branding {

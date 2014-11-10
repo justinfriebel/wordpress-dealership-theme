@@ -151,7 +151,7 @@ function wordpress_dealership_city_state(){
 add_filter( 'the_content_more_link', 'modify_read_more_link' );
 function modify_read_more_link() {
   
-  return '...<span class="clearfix"></span><a class="round button more-link" href="' . get_permalink() . '">Read more</a>';
+  return '...</p><span class="clearfix"></span><p><a class="round button more-link" href="' . get_permalink() . '">Read more</a>';
   
 }
 

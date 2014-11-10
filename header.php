@@ -29,7 +29,7 @@
     <section class="left-small">
       <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
     </section>
-    <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/dev-images/wordpress-dealership-theme.png" class="text-center mobile-logo" /></a>
+    <a href="/"><img src="<?php bloginfo('stylesheet_directory'); ?>/dev-images/wordpress-dealership-theme.png" class="text-center mobile-logo" /></a>
   </nav>
 
 	<!-- Off Canvas Menu -->
@@ -56,7 +56,7 @@
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<div class="row show-for-large-up header-padding">
 				<div class="small-12 columns">
-          <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/dev-images/wordpress-dealership-theme.png" class="left" /></a>
+          <a href="/"><img src="<?php bloginfo('stylesheet_directory'); ?>/dev-images/wordpress-dealership-theme.png" class="left" /></a>
 					<nav class="top-bar hide-for-small right" data-topbar>
 						<section class="top-bar-section right">
 						<?php wp_nav_menu( array( 

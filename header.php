@@ -24,13 +24,14 @@
 
 <div class="off-canvas-wrap" data-offcanvas>
   <div class="inner-wrap">
-
-  	<nav class="tab-bar hide-for-large-up">
-    <section class="left-small">
-      <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
-    </section>
-    <a href="/"><img src="<?php bloginfo('stylesheet_directory'); ?>/dev-images/wordpress-dealership-theme.png" class="text-center mobile-logo" /></a>
-  </nav>
+    <nav class="tab-bar hide-for-large-up">
+      <section class="left-small">
+        <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
+      </section>
+      <a href="/">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/dev-images/wordpress-dealership-theme.png" class="text-center mobile-logo" />
+      </a>
+    </nav>
 
   <!-- Off Canvas Menu -->
   <aside class="left-off-canvas-menu">

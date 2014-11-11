@@ -11,10 +11,10 @@ Install WordPresson the server.
 Upload the theme to your themes directory on the server: `wp-content/themes/` and activate the theme.
 
 ## Update theme images
-Please update the transparent png logo and homepage background images (if applicable). The featured posts and 6 most recent posts will need featured images setup.
+Please update the transparent png logo, homepage background image, homepage car transparent png image. All posts will need featured images setup at a minnium of 970px X 485px.
 
 ## WordPress menu settings
-In the WordPress admin section go to => Appearance => Menus => Menu Settings => check "Right Top Bar" and "Mobile". If it's a new blog you'll need to add the menu items yourself. The "Links" section can be used to add links from the menu to the main website.
+In the WordPress admin section go to => Appearance => Menus. Create a new menu and add the links(external links to normal website) and pages(link to blog). Under Menu Settings check Primary Menu.
 
 ## Blog title and description
 The blog homepage text can be updated via the WordPress site title and tagline located in => Settings => General.

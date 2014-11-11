@@ -25,6 +25,7 @@ This is a WordPress dealership theme built with [http://underscores.me/](http://
 
 ## Blog title and description
 - The blog homepage text can be updated via the WordPress site title and tagline located in => Settings => General.
+- The City and State variables can be updated in the functions.php file.
 
 ## Updating CSS
 - CSS updates are made in custom.css.

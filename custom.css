@@ -252,6 +252,7 @@ article.post h2 {
     background: transparent;
     text-transform: uppercase;
     line-height: 54px; /* this should match the height of the logo */
+    height: 46px;
     font-weight: 600;
     font-size: 1rem;
     padding: 0;

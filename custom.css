@@ -139,6 +139,13 @@ code {
 .left-off-canvas-menu ul li {
   margin: 1rem 0;
 }
+.left-off-canvas-menu > ul > div > ul > li > a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 24px;
+  font-size: 1rem;
+}
 
 .tab-bar .menu-icon span::after {
   box-shadow: 0 0px 0 1px #5a5a5a, 0 7px 0 1px #5a5a5a, 0 14px 0 1px #5a5a5a;

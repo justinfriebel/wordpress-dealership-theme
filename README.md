@@ -7,8 +7,8 @@ This is a WordPress dealership theme built with [http://underscores.me/](http://
 - Install WordPress on the server.
 - Use the "Download ZIP" above to download the theme files.
 - Unzip the theme files.
-- Go into the wordpress- dealership- theme- master folder.
-- Upload the wordpress- dealership- theme- master folder to your themes directory on the server: `wp- content/themes/`
+- Go into the wordpress-dealership-theme-master folder.
+- Upload the wordpress-dealership-theme-master folder to your themes directory on the server: `wp- content/themes/`
 - Activate the theme.
 
 ## Update theme images
@@ -28,7 +28,7 @@ This is a WordPress dealership theme built with [http://underscores.me/](http://
 - The City and State variables can be updated in the functions.php file.
 
 ## Updating CSS
-- CSS updates are made in custom.css.
+- CSS updates are made in custom.css. Update the colors to match your dealership.
 
 ## Social buttons
 - Remove or add social icons and their links in the footer.

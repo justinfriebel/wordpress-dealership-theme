@@ -95,8 +95,8 @@ function wordpress_dealership_scripts() {
   wp_enqueue_style( 'wordpress-dealership-style', get_stylesheet_uri() );
   
   /* Add Foundation CSS */
-  wp_enqueue_style( 'foundation-normalize', get_stylesheet_directory_uri() . '/foundation-5.3.1/css/normalize.css' );
-  wp_enqueue_style( 'foundation', get_stylesheet_directory_uri() . '/foundation-5.3.1/css/foundation.css' );
+  wp_enqueue_style( 'foundation-normalize', get_stylesheet_directory_uri() . '/foundation-5.5.0/css/normalize.css' );
+  wp_enqueue_style( 'foundation', get_stylesheet_directory_uri() . '/foundation-5.5.0/css/foundation.css' );
   
   /* Add Custom CSS */
   wp_enqueue_style( 'foundation-icons', get_stylesheet_directory_uri() . '/foundation-icons/foundation-icons.css', array(), '1' );
@@ -105,8 +105,8 @@ function wordpress_dealership_scripts() {
   wp_enqueue_style( 'wordpress-dealership-custom-style', get_stylesheet_directory_uri() . '/custom.css', array(), '1' );
   
   /* Add Foundation JS */
-  wp_enqueue_script( 'foundation-js', get_template_directory_uri() . '/foundation-5.3.1/js/foundation.min.js', array( 'jquery' ), '1', true );
-  wp_enqueue_script( 'foundation-modernizr-js', get_template_directory_uri() . '/foundation-5.3.1/js/vendor/modernizr.js', array( 'jquery' ), '1', true );
+  wp_enqueue_script( 'foundation-js', get_template_directory_uri() . '/foundation-5.5.0/js/foundation.min.js', array( 'jquery' ), '1', true );
+  wp_enqueue_script( 'foundation-modernizr-js', get_template_directory_uri() . '/foundation-5.5.0/js/vendor/modernizr.js', array( 'jquery' ), '1', true );
   
   /* Foundation Init JS */
   wp_enqueue_script( 'foundation-init-js', get_template_directory_uri() . '/foundation.js', array( 'jquery' ), '1', true );
